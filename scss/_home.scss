@@ -16,7 +16,8 @@
     font-size: 5rem;
     padding-bottom: 1rem;
     margin-bottom: 1rem;
-    border-bottom: 2px solid set-text-color($primary-color);
+    // border-bottom: 2px solid set-text-color($primary-color);
+    text-decoration: underline 1px;
 
     &--last {
       color: $secondary-color;
