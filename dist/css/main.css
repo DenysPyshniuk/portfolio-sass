@@ -1,6 +1,6 @@
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -10,11 +10,23 @@
   padding-top: 40vh;
   overflow: hidden;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/model-1.jpg") center top;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg") center top;
+  background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(39, 39, 39, 0.9)),
+      to(rgba(39, 39, 39, 0.3))
+    ),
+    url("../img/model-1.png") center top;
+  background: linear-gradient(
+      to right,
+      rgba(39, 39, 39, 0.9),
+      rgba(39, 39, 39, 0.3)
+    ),
+    url("../img/model-1.png") center top;
   background-size: cover;
 }
 
@@ -23,7 +35,7 @@
   padding-bottom: 1rem;
   margin-bottom: 1rem;
   -webkit-text-decoration: underline 1px;
-          text-decoration: underline 1px;
+  text-decoration: underline 1px;
 }
 
 .home__name--last {
@@ -78,19 +90,19 @@
 
 .menu-btn__burger.open {
   -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
+  transform: rotate(360deg);
   background: transparent;
 }
 
 .menu-btn__burger.open::before {
   -webkit-transform: rotate(45deg) translate(5px, 8px);
-          transform: rotate(45deg) translate(5px, 8px);
+  transform: rotate(45deg) translate(5px, 8px);
 }
 
 .menu-btn__burger.open::after {
   width: 28px;
   -webkit-transform: rotate(-45deg) translate(3px, -7px);
-          transform: rotate(-45deg) translate(3px, -7px);
+  transform: rotate(-45deg) translate(3px, -7px);
 }
 
 .nav {
@@ -112,40 +124,40 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
+  -ms-flex-flow: column wrap;
+  flex-flow: column wrap;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   height: 100vh;
   overflow: hidden;
   background: #272727;
   list-style-type: none;
   padding-right: 1rem;
   -webkit-transform: translateY(-100%);
-          transform: translateY(-100%);
+  transform: translateY(-100%);
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 
 .nav .menu-nav.open {
   -webkit-transform: translateY(0);
-          transform: translateY(0);
+  transform: translateY(0);
 }
 
 .nav .menu-nav__item {
   -webkit-transform: translateX(100vw);
-          transform: translateX(100vw);
+  transform: translateX(100vw);
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 
 .nav .menu-nav__item.open {
   -webkit-transform: translateX(0);
-          transform: translateX(0);
+  transform: translateX(0);
 }
 
 .nav .menu-nav__item.active > a {
@@ -168,22 +180,22 @@
 
 .menu-nav__item:nth-child(1) {
   -webkit-transition-delay: 0.25s;
-          transition-delay: 0.25s;
+  transition-delay: 0.25s;
 }
 
 .menu-nav__item:nth-child(2) {
   -webkit-transition-delay: 0.35s;
-          transition-delay: 0.35s;
+  transition-delay: 0.35s;
 }
 
 .menu-nav__item:nth-child(3) {
   -webkit-transition-delay: 0.45s;
-          transition-delay: 0.45s;
+  transition-delay: 0.45s;
 }
 
 .menu-nav__item:nth-child(4) {
   -webkit-transition-delay: 0.55s;
-          transition-delay: 0.55s;
+  transition-delay: 0.55s;
 }
 
 .about {
@@ -193,22 +205,34 @@
 .about__bio-image {
   height: 50vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/model-1.jpg") center top;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg") center top;
+  background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(39, 39, 39, 0.9)),
+      to(rgba(39, 39, 39, 0.3))
+    ),
+    url("../img/model-1.png") top;
+  background: linear-gradient(
+      to right,
+      rgba(39, 39, 39, 0.9),
+      rgba(39, 39, 39, 0.3)
+    ),
+    url("../img/model-1.png") top;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
 }
 
 .about__bio-image p {
@@ -230,7 +254,7 @@
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 2rem;
 }
 
@@ -255,13 +279,13 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .about footer {
   -webkit-transform: rotate(90deg) translate(-3rem, -5rem);
-          transform: rotate(90deg) translate(-3rem, -5rem);
+  transform: rotate(90deg) translate(-3rem, -5rem);
 }
 
 .projects {
@@ -271,22 +295,34 @@
 .projects__bio-image {
   height: 30vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/model-1.jpg") center top;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg") center top;
+  background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(39, 39, 39, 0.9)),
+      to(rgba(39, 39, 39, 0.3))
+    ),
+    url("../img/model-1.png") center top;
+  background: linear-gradient(
+      to right,
+      rgba(39, 39, 39, 0.9),
+      rgba(39, 39, 39, 0.3)
+    ),
+    url("../img/model-1.png") center top;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
 }
 
 .projects__bio-image .text-secondary {
@@ -300,7 +336,7 @@
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 2rem;
 }
 
@@ -346,8 +382,8 @@
   display: -ms-grid;
   display: grid;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
 }
 
@@ -368,13 +404,13 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .projects footer {
   -webkit-transform: rotate(90deg) translate(-3rem, -5rem);
-          transform: rotate(90deg) translate(-3rem, -5rem);
+  transform: rotate(90deg) translate(-3rem, -5rem);
 }
 
 .contact {
@@ -386,13 +422,25 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/model-1.jpg") center top;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg") center top;
+  -ms-flex-align: center;
+  align-items: center;
+  background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(39, 39, 39, 0.9)),
+      to(rgba(39, 39, 39, 0.3))
+    ),
+    url("../img/model-1.png") center top;
+  background: linear-gradient(
+      to right,
+      rgba(39, 39, 39, 0.9),
+      rgba(39, 39, 39, 0.3)
+    ),
+    url("../img/model-1.png") center top;
   background-size: cover;
 }
 
@@ -405,7 +453,7 @@
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 2rem;
   font-size: 1.5rem;
 }
@@ -425,7 +473,7 @@
   .nav .menu-nav {
     display: block;
     -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
     height: 100%;
     background: transparent;
     text-align: right;
@@ -444,8 +492,8 @@
     height: 50vh;
   }
   .projects__items {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+    -ms-grid-columns: (1fr) [2];
+    grid-template-columns: repeat(2, 1fr);
   }
   .projects .text-secondary {
     font-size: 3rem;
@@ -454,12 +502,12 @@
 
 @media screen and (min-width: 1024px) {
   .projects__items {
-    -ms-grid-columns: (1fr)[3];
-        grid-template-columns: repeat(3, 1fr);
+    -ms-grid-columns: (1fr) [3];
+    grid-template-columns: repeat(3, 1fr);
   }
   .contact__list {
-    -ms-grid-columns: (1fr)[3];
-        grid-template-columns: repeat(3, 1fr);
+    -ms-grid-columns: (1fr) [3];
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -470,7 +518,7 @@
 }
 
 body {
-  background: #272727;
+  background: rgba(39, 39, 39, 0.9);
   color: #fff;
   height: 100vh;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
