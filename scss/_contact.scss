@@ -12,6 +12,9 @@
     ),
     url("../img/model-1.png") center top;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right 0;
 
   h2 {
     font-size: 3rem;
