@@ -220,12 +220,12 @@
 }
 
 .about {
+  overflow: hidden;
   background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/model-1.png") center center;
   background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.png") center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  position: relative;
   background-position: right center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -237,7 +237,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-align: center;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
@@ -246,6 +245,10 @@
 .about__bio-image {
   height: 100%;
   width: 100%;
+}
+
+.about__whole {
+  height: 100%;
 }
 
 .about__bio {
@@ -417,6 +420,12 @@
 .contact {
   height: 100vh;
   overflow: hidden;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/model-1.png") center center;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.png") center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: right center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -427,15 +436,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/model-1.png") center center;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.png") center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: right center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
@@ -444,14 +444,6 @@
 .contact__bio-image {
   height: 100%;
   width: 100%;
-}
-
-.contact h2 {
-  text-align: center;
-  font-size: 1.5rem;
-  padding-bottom: 2rem;
-  margin-bottom: 1.5rem;
-  border-bottom: 2px solid #ff652f;
 }
 
 .contact__list {
@@ -464,14 +456,20 @@
   text-align: center;
 }
 
-.contact .social-icons {
+.contact h2 {
   text-align: center;
-  padding-top: 2rem;
-  margin: 1rem;
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #ff652f;
 }
 
 .contact .text-secondary {
   margin: 0.5rem;
+}
+
+.contact .social-icons {
+  text-align: center;
 }
 
 .contact footer {
