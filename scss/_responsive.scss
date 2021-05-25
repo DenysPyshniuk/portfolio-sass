@@ -61,19 +61,72 @@
 }
 
 @include media-lg {
+  .about {
+    &__bio {
+      font-size: 2rem;
+    }
+  }
+
+  .jobs {
+    &__job {
+      .text-secondary {
+        font-size: 1.5rem;
+      }
+
+      h3 {
+        font-size: 2rem;
+      }
+
+      h6 {
+        font-size: 1.5rem;
+        font-weight: 400;
+        padding-bottom: 0.7rem;
+      }
+
+      p {
+        font-size: 1.3rem;
+      }
+    }
+  }
+
   .projects {
     &__items {
       grid-template-columns: repeat(3, 1fr);
     }
   }
 
-  .contact__list {
-    grid-template-columns: repeat(3, 1fr);
+  .contact {
+    &__text {
+      text-align: center;
+      padding-bottom: 16vh;
+      padding-right: 20vw;
+
+      h2 {
+        font-size: 2rem;
+        padding-bottom: 2rem;
+      }
+    }
+
+    &__list {
+      font-size: 2rem;
+      grid-template-columns: repeat(1, 1fr);
+    }
   }
 }
 
 @include media-xl {
   .projects__bio- image {
     height: 50vh;
+  }
+
+  .contact {
+    &__text {
+      // text-align: center;
+      padding-bottom: 30vh;
+      // padding-right: 20vw;
+    }
+    &__list {
+      grid-template-columns: repeat(3, 1fr);
+    }
   }
 }
