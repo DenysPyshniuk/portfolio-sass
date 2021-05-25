@@ -1,14 +1,10 @@
 .home {
-  // height: 100vh;
+  height: 100vh;
   &__bio-image {
-    height: 100%;
+    // padding-top: 80vh;
+    height: 100vh;
     width: 100%;
   }
-  padding-top: 55vh;
-  overflow: hidden;
-  align-items: center;
-  text-align: center;
-  text-transform: uppercase;
   background: linear-gradient(
       to right,
       rgba($primary-color, 0.9),
@@ -18,8 +14,15 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  position: relative;
   background-position: right center;
-
+  display: flex;
+  // overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-end;
+  text-transform: uppercase;
   &__name {
     font-size: 2.5rem;
     padding-bottom: 0.5rem;

@@ -1,10 +1,10 @@
 .contact {
-  // height: 100vh;
+  height: 100vh;
+  // padding-top: 55vh;
   &__bio-image {
     height: 100%;
     width: 100%;
   }
-  padding-top: 55vh;
   overflow: hidden;
   display: flex;
   flex-direction: column;
