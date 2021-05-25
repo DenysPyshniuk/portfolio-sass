@@ -219,9 +219,7 @@
           transition-delay: 0.55s;
 }
 
-.about__bio-image {
-  height: 80vh;
-  width: 100%;
+.about {
   background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/model-1.png") center center;
   background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.png") center center;
   background-repeat: no-repeat;
@@ -244,7 +242,12 @@
           justify-content: flex-end;
 }
 
-.about__bio-image p {
+.about__bio-image {
+  height: 80vh;
+  width: 100%;
+}
+
+.about p {
   margin-bottom: 2rem;
 }
 
