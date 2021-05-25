@@ -220,6 +220,7 @@
 }
 
 .about {
+  height: 100vh;
   background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/model-1.png") center center;
   background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.png") center center;
   background-repeat: no-repeat;
@@ -237,27 +238,29 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: center;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
 }
 
 .about__bio-image {
-  height: 80vh;
+  height: 100vh;
   width: 100%;
 }
 
-.about p {
-  margin-bottom: 2rem;
-}
-
 .about__bio {
-  width: 80%;
+  width: 100%;
   text-align: center;
+  padding-top: 80vh;
 }
 
 .about__bio .text-secondary {
   padding-bottom: 1rem;
+}
+
+.about p {
+  margin-bottom: 2rem;
 }
 
 .about .jobs {
