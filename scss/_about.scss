@@ -10,7 +10,7 @@
     background-attachment: fixed;
     background-size: cover;
     background-position: right center;
-    height: 80vh;
+    height: calc(var(--vh, 1vh) * 80);
     width: 100vw;
   }
 
