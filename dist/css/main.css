@@ -246,7 +246,7 @@
   background-attachment: fixed;
   background-size: cover;
   background-position: right center;
-  height: calc(100vh - calc(100vh - 100%));
+  height: -webkit-fill-avaliable;
   width: calc(100vw - calc(100vw - 100%));
 }
 
