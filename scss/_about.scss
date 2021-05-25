@@ -1,7 +1,5 @@
 .about {
   &__bio-image {
-    // height: 100vh;
-    // width: 100vw;
     background: linear-gradient(
         to right,
         rgba($primary-color, 0.9),
@@ -12,13 +10,14 @@
     background-attachment: fixed;
     background-size: cover;
     background-position: right center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    // height: 100vh;
-    // width: 100vw;
+    height: 80vh;
+    width: 100vw;
   }
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
 
   // &__whole {
   //   height: 100%;
@@ -26,7 +25,7 @@
 
   &__bio {
     text-align: center;
-    // padding-top: 60vh;
+    padding-top: 60vh;
     margin: 0 3rem;
     .text-secondary {
       padding-bottom: 1rem;
