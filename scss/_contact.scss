@@ -26,8 +26,11 @@
   justify-content: flex-end;
 
   h2 {
+    text-align: center;
     font-size: 1.5rem;
+    padding-bottom: 2rem;
     margin-bottom: 1.5rem;
+    border-bottom: 2px solid $secondary-color;
   }
 
   &__list {
@@ -39,9 +42,11 @@
   }
 
   .social-icons {
+    // border-top: 2px solid $secondary-color;
     text-align: center;
+    padding-top: 2rem;
     // position: initial;
-    // margin-top: 2rem;
+    margin: 1rem;
   }
 
   .text-secondary {

@@ -270,7 +270,7 @@
 .about .jobs__job {
   background: #414141;
   padding: 0.5rem;
-  border-bottom: 5px solid #ff652f;
+  border-bottom: 2px solid #ff652f;
 }
 
 .about .jobs__job h2,
@@ -299,7 +299,7 @@
 
 .projects__bio-image {
   height: 80%;
-  width: 100%;
+  width: 100vw;
   background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/model-1.png") center center;
   background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.png") center center;
   background-repeat: no-repeat;
@@ -338,7 +338,7 @@
 
 .projects__item {
   position: relative;
-  border-bottom: 5px solid #ff652f;
+  border-bottom: 2px solid #ff652f;
   overflow: hidden;
   cursor: pointer;
 }
@@ -442,8 +442,11 @@
 }
 
 .contact h2 {
+  text-align: center;
   font-size: 1.5rem;
+  padding-bottom: 2rem;
   margin-bottom: 1.5rem;
+  border-bottom: 2px solid #ff652f;
 }
 
 .contact__list {
@@ -458,6 +461,8 @@
 
 .contact .social-icons {
   text-align: center;
+  padding-top: 2rem;
+  margin: 1rem;
 }
 
 .contact .text-secondary {
@@ -525,19 +530,53 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .about__bio {
+    font-size: 2rem;
+  }
+  .jobs__job .text-secondary {
+    font-size: 1.5rem;
+  }
+  .jobs__job h3 {
+    font-size: 2rem;
+  }
+  .jobs__job h6 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-bottom: 0.7rem;
+  }
+  .jobs__job p {
+    font-size: 1.3rem;
+  }
   .projects__items {
     -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3, 1fr);
   }
+  .contact__text {
+    text-align: center;
+    padding-bottom: 16vh;
+    padding-right: 20vw;
+  }
+  .contact__text h2 {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+  }
   .contact__list {
-    -ms-grid-columns: (1fr)[3];
-        grid-template-columns: repeat(3, 1fr);
+    font-size: 2rem;
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1920px) {
   .projects__bio- image {
     height: 50vh;
+  }
+  .contact__text {
+    padding-bottom: 30vh;
+  }
+  .contact__list {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
   }
 }
 

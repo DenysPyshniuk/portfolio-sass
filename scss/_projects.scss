@@ -3,7 +3,7 @@
 
   &__bio-image {
     height: 80%;
-    width: 100%;
+    width: 100vw;
     background: linear-gradient(
         to right,
         rgba($primary-color, 0.9),
@@ -35,7 +35,7 @@
 
   &__item {
     position: relative;
-    border-bottom: 5px solid $secondary-color;
+    border-bottom: 2px solid $secondary-color;
     overflow: hidden;
     cursor: pointer;
 
