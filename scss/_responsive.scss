@@ -1,12 +1,12 @@
-@include media-s {
-  .menu-btn {
-    visibility: visible;
-  }
+// @include media-s {
+//   .menu-btn {
+//     visibility: visible;
+//   }
 
-  .nav {
-    visibility: hidden;
-  }
-}
+//   .nav {
+//     visibility: hidden;
+//   }
+// }
 @include media-md {
   .menu-btn {
     visibility: hidden;

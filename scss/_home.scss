@@ -1,5 +1,9 @@
 .home {
-  height: 100%;
+  // height: 100vh;
+  &__bio-image {
+    height: 100%;
+    width: 100%;
+  }
   padding-top: 55vh;
   overflow: hidden;
   align-items: center;
@@ -17,19 +21,27 @@
   background-position: right center;
 
   &__name {
-    font-size: 3rem;
+    font-size: 2.5rem;
     padding-bottom: 0.5rem;
-    margin-bottom: 0.5rem;
-    // border-bottom: 2px solid set-text-color($primary-color);
+    margin: 0.5rem 4rem;
+    border-bottom: 2px solid set-text-color($primary-color);
     // text-decoration: underline 1px;
 
     &__around {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
+      margin: 0rem 4rem;
     }
 
     &--last {
       color: $secondary-color;
       font-weight: 600;
     }
+  }
+
+  footer {
+    position: initial;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
   }
 }

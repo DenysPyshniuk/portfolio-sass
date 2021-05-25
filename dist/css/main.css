@@ -6,7 +6,6 @@
 }
 
 .home {
-  height: 100%;
   padding-top: 55vh;
   overflow: hidden;
   -webkit-box-align: center;
@@ -22,19 +21,37 @@
   background-position: right center;
 }
 
+.home__bio-image {
+  height: 100%;
+  width: 100%;
+}
+
 .home__name {
-  font-size: 3rem;
+  font-size: 2.5rem;
   padding-bottom: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin: 0.5rem 4rem;
+  border-bottom: 2px solid #fff;
 }
 
 .home__name__around {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  margin: 0rem 4rem;
 }
 
 .home__name--last {
   color: #ff652f;
   font-weight: 600;
+}
+
+.home footer {
+  position: initial;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 1rem;
 }
 
 .menu-btn {
@@ -192,19 +209,16 @@
           transition-delay: 0.55s;
 }
 
-.about {
-  padding-bottom: 2rem;
-}
-
 .about__bio-image {
   height: 80vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/model-1.png") top;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.png") top;
-  background-size: cover;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/model-1.png") center center;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.png") center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: right 0;
+  background-size: cover;
+  position: relative;
+  background-position: right center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -263,22 +277,25 @@
 }
 
 .about footer {
-  text-align: center;
-}
-
-.projects {
-  padding-bottom: 2rem;
+  position: initial;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 1rem;
 }
 
 .projects__bio-image {
-  height: 100%;
+  height: 80%;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/model-1.png") center top;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.png") center top;
-  background-size: cover;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.7))), url("../img/model-1.png") center center;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.7)), url("../img/model-1.png") center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: right 0;
+  background-size: cover;
+  background-position: right center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -372,14 +389,19 @@
 }
 
 .projects footer {
-  text-align: center;
+  position: initial;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 1rem;
 }
 
 .contact {
-  height: 100%;
   padding-top: 55vh;
   overflow: hidden;
-  font-size: 0.9rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -390,17 +412,28 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/model-1.png") center top;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.png") center top;
-  background-size: cover;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/model-1.png") center center;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.png") center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: right 0;
+  background-size: cover;
+  background-position: right center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.contact__bio-image {
+  height: 100%;
+  width: 100%;
 }
 
 .contact h2 {
   font-size: 1.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .contact__list {
@@ -408,27 +441,28 @@
   display: grid;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
-  grid-gap: 1rem;
+  grid-gap: 0.8rem;
   font-size: 1.2rem;
   text-align: center;
 }
 
 .contact .social-icons {
-  position: initial;
-  margin-top: 2rem;
+  text-align: center;
 }
 
 .contact .text-secondary {
   margin: 0.5rem;
 }
 
-@media screen and (min-width: 540px) {
-  .menu-btn {
-    visibility: visible;
-  }
-  .nav {
-    visibility: hidden;
-  }
+.contact footer {
+  position: initial;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 1rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -521,7 +555,6 @@ main {
 }
 
 main .social-icons {
-  position: inherit;
   margin: 3rem;
 }
 
@@ -533,11 +566,5 @@ main .social-icons a {
 
 main .social-icons a:hover {
   color: #ff652f;
-}
-
-footer {
-  font-size: 1rem;
-  padding: 1rem;
-  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
