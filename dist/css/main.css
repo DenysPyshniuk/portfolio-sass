@@ -476,6 +476,15 @@
 }
 
 @media screen and (min-width: 768px) {
+  .home__hello {
+    padding-bottom: 3rem;
+  }
+  .home__name {
+    font-size: 4rem;
+  }
+  .home__name__around {
+    font-size: 2rem;
+  }
   .menu-btn {
     visibility: hidden;
   }
@@ -509,6 +518,9 @@
   }
   .projects .text-secondary {
     font-size: 3rem;
+  }
+  .contact__list {
+    font-size: 1.7rem;
   }
 }
 
