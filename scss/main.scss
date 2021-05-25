@@ -41,9 +41,8 @@ main {
   width: 100%;
 
   .social-icons {
-    position: fixed;
-    bottom: 1rem;
-    left: 1rem;
+    position: inherit;
+    margin: 3rem;
 
     a {
       padding: 0.4rem;
@@ -58,10 +57,10 @@ main {
 
 footer {
   font-size: 1rem;
-  position: fixed;
-  bottom: 0.4rem;
-  right: 1rem;
-  text-align: right;
+  // position: fixed;
+  // bottom: 0.4rem;
+  // right: 1rem;
+  // text-align: right;
   padding: 1rem;
   color: set-text-color($primary-color);
 }

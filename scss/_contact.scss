@@ -1,7 +1,8 @@
 .contact {
   height: 100%;
-  padding-top: 40vh;
+  padding-top: 55vh;
   overflow: hidden;
+  font-size: 0.9rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,19 +18,24 @@
   background-position: right 0;
 
   h2 {
-    font-size: 3rem;
+    font-size: 1.5rem;
     margin-bottom: 2rem;
   }
 
   &__list {
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 2rem;
-    font-size: 1.5rem;
+    grid-gap: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
   }
 
   .social-icons {
     position: initial;
     margin-top: 2rem;
+  }
+
+  .text-secondary {
+    margin: 0.5rem;
   }
 }
