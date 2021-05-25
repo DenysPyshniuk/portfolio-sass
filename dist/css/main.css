@@ -246,8 +246,8 @@
   background-attachment: fixed;
   background-size: cover;
   background-position: right center;
-  height: calc(var(--vh, 1vh) * 80);
-  width: 100vw;
+  height: calc(100vh - calc(100vh - 100%));
+  width: calc(100vw - calc(100vw - 100%));
 }
 
 .about__bio {
