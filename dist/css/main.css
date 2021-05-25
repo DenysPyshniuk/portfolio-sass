@@ -244,13 +244,14 @@
 }
 
 .about__bio-image {
+  height: 100%;
   width: 100%;
 }
 
 .about__bio {
-  width: 100%;
   text-align: center;
   padding-top: 60vh;
+  margin: 0 3rem;
 }
 
 .about__bio .text-secondary {
