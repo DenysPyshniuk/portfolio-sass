@@ -1,4 +1,5 @@
 .home {
+  height: 100vh;
   text-align: center;
 
   &__hello {
@@ -24,9 +25,11 @@
   }
 
   footer {
-    padding-bottom: 1rem;
-    position: inherit;
-    // display: flex;
-    // justify-content: center;
+    // padding-bottom: 1rem;
+    // position: inherit;
+
+    position: absolute;
+    bottom: 0.5rem;
+    width: 100%;
   }
 }

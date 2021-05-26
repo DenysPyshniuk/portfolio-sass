@@ -77,6 +77,21 @@
 }
 
 @include media-lg {
+  .home {
+    &__hello {
+      width: 70vw;
+      padding-top: 50vh;
+    }
+
+    .social-icons {
+      padding-right: 32vw;
+    }
+
+    footer {
+      padding-right: 28.5vw;
+    }
+  }
+
   .about {
     &__bio {
       font-size: 2rem;
