@@ -211,8 +211,6 @@
 }
 
 .about .jobs {
-  width: 60vw;
-  margin: 2rem auto 0 auto;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr;
