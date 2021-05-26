@@ -32,9 +32,10 @@
 }
 
 .home footer {
-  position: absolute;
-  bottom: 0.5rem;
-  width: 100%;
+  position: inherit;
+  width: 100vw;
+  text-align: center;
+  padding-bottom: 1rem;
 }
 
 .menu-btn {
