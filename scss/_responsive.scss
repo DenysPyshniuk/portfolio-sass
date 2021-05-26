@@ -67,27 +67,27 @@
     }
   }
 
-  .jobs {
-    &__job {
-      .text-secondary {
-        font-size: 1.5rem;
-      }
+  // .jobs {
+  //   &__job {
+  //     .text-secondary {
+  //       font-size: 1.5rem;
+  //     }
 
-      h3 {
-        font-size: 2rem;
-      }
+  //     h3 {
+  //       font-size: 2rem;
+  //     }
 
-      h6 {
-        font-size: 1.5rem;
-        font-weight: 400;
-        padding-bottom: 0.7rem;
-      }
+  //     h6 {
+  //       font-size: 1.5rem;
+  //       font-weight: 400;
+  //       padding-bottom: 0.7rem;
+  //     }
 
-      p {
-        font-size: 1.3rem;
-      }
-    }
-  }
+  //     p {
+  //       font-size: 1.3rem;
+  //     }
+  //   }
+  // }
 
   .projects {
     &__items {

@@ -456,20 +456,6 @@
   .about__bio {
     font-size: 2rem;
   }
-  .jobs__job .text-secondary {
-    font-size: 1.5rem;
-  }
-  .jobs__job h3 {
-    font-size: 2rem;
-  }
-  .jobs__job h6 {
-    font-size: 1.5rem;
-    font-weight: 400;
-    padding-bottom: 0.7rem;
-  }
-  .jobs__job p {
-    font-size: 1.3rem;
-  }
   .projects__items {
     -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3, 1fr);
