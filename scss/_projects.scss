@@ -1,30 +1,37 @@
 .projects {
-  // &__bio-image {
-  //   height: 80%;
-  //   width: 100vw;
-  //   background: linear-gradient(
-  //       to right,
-  //       rgba($primary-color, 0.9),
-  //       rgba($primary-color, 0.3)
-  //     ),
-  //     url("../img/model-1.png") center center;
-  //   background-repeat: no-repeat;
-  //   background-attachment: fixed;
-  //   background-size: cover;
-  //   background-position: right center;
-  //   display: flex;
-  //   flex-direction: column;
-  //   align-items: center;
-  //   justify-content: flex-end;
+  &__bio-image {
+    //   height: 80%;
+    //   width: 100vw;
+    //   background: linear-gradient(
+    //       to right,
+    //       rgba($primary-color, 0.9),
+    //       rgba($primary-color, 0.3)
+    //     ),
+    //     url("../img/model-1.png") center center;
+    //   background-repeat: no-repeat;
+    //   background-attachment: fixed;
+    //   background-size: cover;
+    //   background-position: right center;
+    //   display: flex;
+    //   flex-direction: column;
+    //   align-items: center;
+    //   justify-content: flex-end;
 
-  //   .text-secondary {
-  //     font-size: 2rem;
-  //     margin: 1rem;
-  //   }
-  // }
+    .text-secondary {
+      padding-top: 60vh;
+      text-align: center;
+      font-size: 2rem;
+      margin: 1rem;
+    }
+  }
 
   &__items {
-    width: 70vw;
+    // padding-top: 50vh;
+    text-align: center;
+    justify-items: center;
+    background: lighten($primary-color, 5%);
+    width: 100vw;
+    // width: 70vw;
     margin: 2rem auto 0 auto;
     display: grid;
     grid-template-columns: 1fr;
@@ -32,6 +39,7 @@
   }
 
   &__item {
+    width: 70vw;
     position: relative;
     border-bottom: 2px solid $secondary-color;
     overflow: hidden;
