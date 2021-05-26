@@ -283,6 +283,10 @@
   grid-gap: 2rem;
 }
 
+.projects__items:hover {
+  content: "";
+}
+
 .projects__item {
   width: 70vw;
   position: relative;
