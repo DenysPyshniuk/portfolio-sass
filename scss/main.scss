@@ -16,6 +16,7 @@ body {
     url("../img/model-1.png") center center;
   background-repeat: no-repeat;
   background-attachment: scroll;
+  -webkit-overflow-scrolling: touch;
   background-size: cover;
   background-position: right center;
 

@@ -266,35 +266,6 @@
   padding-bottom: 1rem;
 }
 
-.projects__bio-image {
-  height: 80%;
-  width: 100vw;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/model-1.png") center center;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.png") center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: right center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
-.projects__bio-image .text-secondary {
-  font-size: 2rem;
-  margin: 1rem;
-}
-
 .projects__items {
   width: 70vw;
   margin: 2rem auto 0 auto;
@@ -536,6 +507,7 @@ body {
   background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.png") center center;
   background-repeat: no-repeat;
   background-attachment: scroll;
+  -webkit-overflow-scrolling: touch;
   background-size: cover;
   background-position: right center;
   color: #fff;

@@ -1,27 +1,27 @@
 .projects {
-  &__bio-image {
-    height: 80%;
-    width: 100vw;
-    background: linear-gradient(
-        to right,
-        rgba($primary-color, 0.9),
-        rgba($primary-color, 0.3)
-      ),
-      url("../img/model-1.png") center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: right center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
+  // &__bio-image {
+  //   height: 80%;
+  //   width: 100vw;
+  //   background: linear-gradient(
+  //       to right,
+  //       rgba($primary-color, 0.9),
+  //       rgba($primary-color, 0.3)
+  //     ),
+  //     url("../img/model-1.png") center center;
+  //   background-repeat: no-repeat;
+  //   background-attachment: fixed;
+  //   background-size: cover;
+  //   background-position: right center;
+  //   display: flex;
+  //   flex-direction: column;
+  //   align-items: center;
+  //   justify-content: flex-end;
 
-    .text-secondary {
-      font-size: 2rem;
-      margin: 1rem;
-    }
-  }
+  //   .text-secondary {
+  //     font-size: 2rem;
+  //     margin: 1rem;
+  //   }
+  // }
 
   &__items {
     width: 70vw;
