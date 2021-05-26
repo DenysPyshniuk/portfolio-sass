@@ -538,6 +538,7 @@ body {
   background-size: cover;
   background-position: right center;
   color: #fff;
+  height: intrinsic;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1;
 }
