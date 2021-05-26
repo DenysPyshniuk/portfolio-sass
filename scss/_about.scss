@@ -64,15 +64,16 @@
   }
 
   .social-icons {
+    width: 100vw;
     background: lighten($primary-color, 10%);
     text-align: center;
   }
 
   footer {
-    background: lighten($primary-color, 10%);
-    position: initial;
-    display: flex;
-    justify-content: center;
+    position: inherit;
+    width: 100vw;
+    text-align: center;
     padding-bottom: 1rem;
+    background: lighten($primary-color, 10%);
   }
 }

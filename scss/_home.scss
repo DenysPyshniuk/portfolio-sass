@@ -46,9 +46,9 @@
   }
 
   footer {
-    position: initial;
-    display: flex;
-    justify-content: center;
     padding-bottom: 1rem;
+    position: inherit;
+    // display: flex;
+    // justify-content: center;
   }
 }

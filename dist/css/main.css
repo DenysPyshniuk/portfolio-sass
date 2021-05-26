@@ -31,14 +31,8 @@
 }
 
 .home footer {
-  position: initial;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   padding-bottom: 1rem;
+  position: inherit;
 }
 
 .menu-btn {
@@ -256,23 +250,20 @@
 }
 
 .about .social-icons {
+  width: 100vw;
   background: #414141;
   text-align: center;
 }
 
 .about footer {
-  background: #414141;
-  position: initial;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  position: inherit;
+  width: 100vw;
+  text-align: center;
   padding-bottom: 1rem;
+  background: #414141;
 }
 
-.projects__bio-image .text-secondary {
+.projects .text-secondary {
   padding-top: 60vh;
   text-align: center;
   font-size: 2rem;
@@ -280,11 +271,11 @@
 }
 
 .projects__items {
+  padding: 2rem;
   text-align: center;
   justify-items: center;
   background: #343434;
   width: 100vw;
-  margin: 2rem auto 0 auto;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr;
@@ -298,6 +289,7 @@
   border-bottom: 2px solid #ff652f;
   overflow: hidden;
   cursor: pointer;
+  margin: 1rem;
 }
 
 .projects__item img {
@@ -352,29 +344,22 @@
 }
 
 .projects .social-icons {
+  width: 100vw;
+  background: #414141;
   text-align: center;
 }
 
 .projects footer {
-  position: initial;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  position: inherit;
+  width: 100vw;
+  text-align: center;
   padding-bottom: 1rem;
+  background: #414141;
 }
 
 .contact {
   height: 100vh;
   overflow: hidden;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/model-1.png") center center;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.png") center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: right center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -390,9 +375,8 @@
           justify-content: flex-end;
 }
 
-.contact__bio-image {
-  height: 100%;
-  width: 100%;
+.contact__text {
+  padding-top: 60vh;
 }
 
 .contact__list {
@@ -472,9 +456,20 @@
   .projects__items {
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 3rem;
+    grid-row-gap: 3rem;
+    margin: 0;
+    padding: 3rem;
+  }
+  .projects__item {
+    width: 40vw;
   }
   .projects .text-secondary {
     font-size: 3rem;
+  }
+  .contact__text {
+    padding-right: 33vw;
+    padding-bottom: 20vw;
   }
   .contact__list {
     font-size: 1.7rem;
@@ -485,9 +480,30 @@
   .about__bio {
     font-size: 2rem;
   }
+  .jobs__job .text-secondary {
+    font-size: 1.5rem;
+  }
+  .jobs__job h3 {
+    font-size: 2rem;
+  }
+  .jobs__job h6 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-bottom: 0.7rem;
+  }
+  .jobs__job p {
+    font-size: 1.3rem;
+  }
   .projects__items {
     -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 1rem;
+    grid-row-gap: 3rem;
+    margin: 0rem;
+    padding: 3rem;
+  }
+  .projects__item {
+    width: 24vw;
   }
   .contact__text {
     text-align: center;
@@ -560,7 +576,8 @@ main {
 }
 
 main .social-icons {
-  margin: 3rem;
+  margin: 0rem;
+  padding: 3rem;
 }
 
 main .social-icons a {
