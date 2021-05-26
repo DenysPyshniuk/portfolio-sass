@@ -239,17 +239,6 @@
           justify-content: flex-end;
 }
 
-.about__bio-image {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/model-1.png") center center;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.png") center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: right center;
-  height: -webkit-fill-avaliable;
-  width: calc(100vw - calc(100vw - 100%));
-}
-
 .about__bio {
   text-align: center;
   padding-top: 60vh;
