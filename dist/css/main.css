@@ -551,6 +551,10 @@
   }
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 body {
   height: 100vh;
   width: 100vw;
@@ -562,6 +566,10 @@ body {
   color: #fff;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
 }
 
 h1,
