@@ -1,26 +1,9 @@
 .home {
   height: 100vh;
-  background: linear-gradient(
-      to right,
-      rgba($primary-color, 0.9),
-      rgba($primary-color, 0.3)
-    ),
-    url("../img/model-1.png") center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  position: relative;
-  background-position: right center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   text-align: center;
-  justify-content: flex-end;
-  text-transform: uppercase;
 
-  &__bio-image {
-    height: 100vh;
-    width: 100%;
+  &__hello {
+    padding-top: 60vh;
   }
 
   &__name {
@@ -42,9 +25,9 @@
   }
 
   footer {
-    position: initial;
-    display: flex;
-    justify-content: center;
+    position: inherit;
+    width: 100vw;
+    text-align: center;
     padding-bottom: 1rem;
   }
 }
