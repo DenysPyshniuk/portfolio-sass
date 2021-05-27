@@ -70,7 +70,6 @@
     }
 
     &__list {
-      // grid-template-columns: repeat(2, 1fr);
       font-size: 1.7rem;
     }
   }
@@ -160,9 +159,7 @@
 
   .contact {
     &__text {
-      // text-align: center;
       padding-bottom: 30vh;
-      // padding-right: 20vw;
     }
     &__list {
       grid-template-columns: repeat(3, 1fr);
