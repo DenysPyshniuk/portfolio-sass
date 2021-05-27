@@ -7,33 +7,11 @@
 
 .home {
   height: 100vh;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/model-1.png") center center;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.png") center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  position: relative;
-  background-position: right center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   text-align: center;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  text-transform: uppercase;
 }
 
-.home__bio-image {
-  height: 100vh;
-  width: 100%;
+.home__hello {
+  padding-top: 60vh;
 }
 
 .home__name {
@@ -54,13 +32,9 @@
 }
 
 .home footer {
-  position: initial;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  position: inherit;
+  width: 100vw;
+  text-align: center;
   padding-bottom: 1rem;
 }
 
@@ -219,15 +193,7 @@
           transition-delay: 0.55s;
 }
 
-.about__bio-image {
-  height: 100vh;
-  width: 100vw;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/model-1.png") center center;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.png") center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: right center;
+.about {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -245,6 +211,7 @@
 
 .about__bio {
   text-align: center;
+  padding-top: 66vh;
   margin: 0 3rem;
 }
 
@@ -257,7 +224,10 @@
 }
 
 .about .jobs {
-  width: 60vw;
+  text-align: center;
+  justify-items: center;
+  background: #343434;
+  width: 100vw;
   margin: 2rem auto 0 auto;
   display: -ms-grid;
   display: grid;
@@ -267,7 +237,8 @@
 }
 
 .about .jobs__job {
-  background: #414141;
+  width: 60vw;
+  background: #313131;
   padding: 0.5rem;
   border-bottom: 2px solid #ff652f;
 }
@@ -282,18 +253,17 @@
 }
 
 .about .social-icons {
+  width: 100vw;
+  background: #414141;
   text-align: center;
 }
 
 .about footer {
-  position: initial;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  position: inherit;
+  width: 100vw;
+  text-align: center;
   padding-bottom: 1rem;
+  background: #414141;
 }
 
 .projects__bio-image {
@@ -575,9 +545,14 @@
 }
 
 body {
-  background: rgba(39, 39, 39, 0.9);
-  color: #fff;
   height: 100vh;
+  width: 100vw;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/model-1.png") center center;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.png") center center;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: right center;
+  color: #fff;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1;
 }
@@ -610,7 +585,8 @@ main {
 }
 
 main .social-icons {
-  margin: 3rem;
+  margin: 0rem;
+  padding: 2rem;
 }
 
 main .social-icons a {

@@ -1,32 +1,12 @@
 .about {
-  &__bio-image {
-    height: 100vh;
-    width: 100vw;
-    background: linear-gradient(
-        to right,
-        rgba($primary-color, 0.9),
-        rgba($primary-color, 0.3)
-      ),
-      url("../img/model-1.png") center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: right center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    // height: 100vh;
-    // width: 100vw;
-  }
-
-  // &__whole {
-  //   height: 100%;
-  // }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
 
   &__bio {
     text-align: center;
-    // padding-top: 60vh;
+    padding-top: 66vh;
     margin: 0 3rem;
     .text-secondary {
       padding-bottom: 1rem;
@@ -38,14 +18,18 @@
   }
 
   .jobs {
-    width: 60vw;
+    text-align: center;
+    justify-items: center;
+    background: lighten($primary-color, 5%);
+    width: 100vw;
     margin: 2rem auto 0 auto;
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 2rem;
 
     &__job {
-      background: lighten($primary-color, 10%);
+      width: 60vw;
+      background: lighten($primary-color, 4%);
       padding: 0.5rem;
       border-bottom: 2px solid $secondary-color;
 
@@ -61,13 +45,16 @@
   }
 
   .social-icons {
+    width: 100vw;
+    background: lighten($primary-color, 10%);
     text-align: center;
   }
 
   footer {
-    position: initial;
-    display: flex;
-    justify-content: center;
+    position: inherit;
+    width: 100vw;
+    text-align: center;
     padding-bottom: 1rem;
+    background: lighten($primary-color, 10%);
   }
 }
