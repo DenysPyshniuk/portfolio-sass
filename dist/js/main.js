@@ -8,6 +8,7 @@ let showMenu = false;
 
 menuBtn.addEventListener("click", toggleMenu);
 
+// Function to hide or show menu on the toggle
 function toggleMenu() {
   if (!showMenu) {
     hamburger.classList.add("open");
