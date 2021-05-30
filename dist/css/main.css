@@ -435,6 +435,10 @@
 }
 
 @media screen and (min-width: 768px) and (min-height: 768px) {
+  body {
+    background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/model-1.png") center center;
+    background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.png") center center;
+  }
   .home__hello {
     padding-bottom: 3rem;
   }
@@ -495,6 +499,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+  body {
+    background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/model-1.png") center center;
+    background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.png") center center;
+  }
   .home__hello {
     width: 70vw;
     padding-top: 50vh;
@@ -550,6 +558,10 @@
 }
 
 @media screen and (min-width: 1920px) {
+  body {
+    background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/model-1.png") center center;
+    background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.png") center center;
+  }
   .projects__bio- image {
     height: 50vh;
   }
@@ -569,8 +581,8 @@ body::-webkit-scrollbar {
 body {
   height: 100vh;
   width: 100vw;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/model-1.png") center center;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.png") center center;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.5)), to(rgba(39, 39, 39, 0.3))), url("../img/model-1.png") center center;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.5), rgba(39, 39, 39, 0.3)), url("../img/model-1.png") center center;
   background-attachment: scroll;
   background-size: cover;
   background-position: right center;

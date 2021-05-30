@@ -13,12 +13,14 @@
 }
 
 @include media-md {
-  background: linear-gradient(
-      to right,
-      rgba($primary-color, 0.9),
-      rgba($primary-color, 0.3)
-    ),
-    url("../img/model-1.png") center center;
+  body {
+    background: linear-gradient(
+        to right,
+        rgba($primary-color, 0.9),
+        rgba($primary-color, 0.3)
+      ),
+      url("../img/model-1.png") center center;
+  }
 
   .home {
     &__hello {
@@ -97,12 +99,14 @@
 }
 
 @include media-lg {
-  background: linear-gradient(
-      to right,
-      rgba($primary-color, 0.9),
-      rgba($primary-color, 0.3)
-    ),
-    url("../img/model-1.png") center center;
+  body {
+    background: linear-gradient(
+        to right,
+        rgba($primary-color, 0.9),
+        rgba($primary-color, 0.3)
+      ),
+      url("../img/model-1.png") center center;
+  }
 
   .home {
     &__hello {
@@ -181,12 +185,14 @@
 }
 
 @include media-xl {
-  background: linear-gradient(
-      to right,
-      rgba($primary-color, 0.9),
-      rgba($primary-color, 0.3)
-    ),
-    url("../img/model-1.png") center center;
+  body {
+    background: linear-gradient(
+        to right,
+        rgba($primary-color, 0.9),
+        rgba($primary-color, 0.3)
+      ),
+      url("../img/model-1.png") center center;
+  }
 
   .projects__bio- image {
     height: 50vh;
